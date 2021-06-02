@@ -4,8 +4,11 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        backgroundColor:'white'
-
+        backgroundColor:'#bfb051',
+        
+    },
+    title: {
+textAlign:'center'
     },
     header:{
         width:350,
@@ -16,42 +19,39 @@ export default StyleSheet.create({
         borderBottomRightRadius:20,        
     },
     TextHeader:{
-        color:'white',
+        color:'#763857',
         textAlign:'center',
-        marginTop:13,
-        fontSize:20,
-
-    },
-    title: {
+        marginTop:73,
+        fontSize:26,
+        fontWeight:'bold',
 
     },
     logo: {
-        flex: 1,
         height: 140,
         width: 230,
         alignSelf: "center",
-        margin: 30
+        margin: 90
     },
     input: {
         height: 48,
         borderRadius: 35,
-        overflow: 'hidden',
         backgroundColor: 'white',
-        marginTop: 10,
         borderWidth: 0.3,
         borderColor:'gray',
+        marginTop: 10,
         marginBottom: 10,
         marginLeft: 30,
         marginRight: 30,
         paddingLeft: 16
     },
     button: {
-        backgroundColor: '#B208C7',
+        backgroundColor: '#763857',
         marginLeft: 30,
         marginRight: 30,
-        marginTop: 20,
+        width:200,
+        marginTop:15,
         height: 48,
-        borderRadius: 35,
+        borderRadius: 5,
         alignItems: "center",
         justifyContent: 'center'
     },
